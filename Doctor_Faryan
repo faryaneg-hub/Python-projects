@@ -1,0 +1,8 @@
+print("This is doctor Faryan")
+a = str(input("What is your problem (cold or headache)? :"))
+if a == "cold" :
+    print("Doctor say : Drink some warm tea and eat some soup.")
+elif a == "headache" :
+    print("Doctor say : Take some acetaminophen.")
+else :
+    print("Doctor does'nt knwo anything about this disease!")
